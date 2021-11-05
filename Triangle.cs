@@ -9,5 +9,8 @@ namespace UprajnenieGit11b
     class Triangle
     {
         private int a, b, c;
+        public Triangle()
+        {
+        }
     }
 }
