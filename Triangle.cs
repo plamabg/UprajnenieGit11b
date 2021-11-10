@@ -13,9 +13,15 @@ namespace UprajnenieGit11b
         {
         }
         public Triangle(int a, int b, int c)
-         {
-            this.a=a;
-            this.b=b;
-            this.c=c;
-         }
+        {
+            this.a = a;
+            this.b = b;
+            this.c = c;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine(a+" "+b+" "+c);
+        }
+    }
 }
