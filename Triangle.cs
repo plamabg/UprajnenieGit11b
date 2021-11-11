@@ -18,7 +18,11 @@ namespace UprajnenieGit11b
             this.b = b;
             this.c = c;
         }
-
+        public int A
+        {
+            get;
+            set;
+        }
         public void Display()
         {
             Console.Write(a+" "+b+" "+c);
