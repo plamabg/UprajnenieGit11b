@@ -21,7 +21,7 @@ namespace UprajnenieGit11b
 
         public void Display()
         {
-            Console.WriteLine(a+" "+b+" "+c);
+            Console.Write(a+" "+b+" "+c);
         }
     }
 }
